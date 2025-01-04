@@ -2,12 +2,22 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
+
+```bash
+npm install 
+```
+
 ## Development server
 
 To start a local development server, run:
 
 ```bash
 ng serve
+```
+To start the Json Server, run
+
+```bash
+json-sever --watch db.json
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
