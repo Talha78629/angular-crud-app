@@ -1,0 +1,30 @@
+{
+  "productList": [
+    {
+      "productName": "Tomato",
+      "category": "Vegetable",
+      "freshness": "New",
+      "price": 40,
+      "date": "2025-01-01T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruit",
+      "freshness": "New",
+      "price": 80,
+      "date": "2025-01-03T18:30:00.000Z",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

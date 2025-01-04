@@ -1,0 +1,12 @@
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 1.2em;
+  color: #888;
+}

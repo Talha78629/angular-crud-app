@@ -1,0 +1,13 @@
+<div class="chart-container" *ngIf="!noDataFound; else noDataTemplate">
+  <p-chart
+    type="bar"
+    [data]="barChartData"
+    [options]="chartOptions"
+    style="width: 600px; height: 300px;">
+  </p-chart>
+</div>
+<ng-template #noDataTemplate>
+  <div class="no-data">
+    <p>No data found</p>
+  </div>
+</ng-template>
