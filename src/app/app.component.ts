@@ -32,6 +32,7 @@ export class AppComponent implements OnInit {
     this.getAllProducts();
   }
 
+  // Open dialog to add new product
   openDialog(): void {
     this.dialog.open(DialogComponent, {
       width: '30%',
@@ -41,7 +42,7 @@ export class AppComponent implements OnInit {
       }
     });
   }
-
+// Get all products from the server
   getAllProducts() {
     this.api.getProduct().subscribe({
       next: (res) => {
@@ -98,7 +99,7 @@ export class AppComponent implements OnInit {
       },
     });
   }
-
+// Edit product
   editProduct(row: any) {
     this.dialog.open(DialogComponent, {
       width: '30%',
@@ -110,6 +111,7 @@ export class AppComponent implements OnInit {
     });
   }
 
+  // Delete product
   deleteProduct(id: number) {
     this.api.deleteProduct(id).subscribe({
       next: () => {
@@ -122,6 +124,7 @@ export class AppComponent implements OnInit {
     });
   }
 
+  // Apply filter to data
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();

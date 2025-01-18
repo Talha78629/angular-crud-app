@@ -1,4 +1,6 @@
 
+
+
 .example-radio-group {
   display: flex;
   flex-direction: column;
@@ -8,4 +10,8 @@
 
 .example-radio-button {
   margin: 5px;
+}
+.example-input{
+  margin-top: 10px;
+
 }

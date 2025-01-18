@@ -9,12 +9,12 @@
       "id": 2
     },
     {
-      "productName": "Mango",
-      "category": "Fruit",
+      "productName": "carrot",
+      "category": "Vegetable",
       "freshness": "New",
-      "price": 80,
-      "date": "2025-01-03T18:30:00.000Z",
-      "id": 4
+      "price": 20,
+      "date": "2025-01-16T18:30:00.000Z",
+      "id": 6
     }
   ],
   "comments": [
